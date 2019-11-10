@@ -61,6 +61,48 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-使用Git将本地文件上传到github的步骤(无图版)" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/11/10/%E4%BD%BF%E7%94%A8Git%E5%B0%86%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E7%9A%84%E6%AD%A5%E9%AA%A4(%E6%97%A0%E5%9B%BE%E7%89%88)/" class="article-date">
+  <time datetime="2019-11-10T11:26:41.043Z" itemprop="datePublished">2019-11-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/11/10/%E4%BD%BF%E7%94%A8Git%E5%B0%86%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E7%9A%84%E6%AD%A5%E9%AA%A4(%E6%97%A0%E5%9B%BE%E7%89%88)/">使用Git将本地文件上传到github的步骤(无图版)</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="使用Git将本地文件上传到github的步骤"><a href="#使用Git将本地文件上传到github的步骤" class="headerlink" title="使用Git将本地文件上传到github的步骤"></a>使用Git将本地文件上传到github的步骤</h1><h2 id="一，先建立git仓库"><a href="#一，先建立git仓库" class="headerlink" title="一，先建立git仓库"></a>一，先建立git仓库</h2><pre><code>复制上面的网址备用
+
+打开git bash，如何一直使用cd到本地项目根目录，再执行git init</code></pre><p>   ** (git init//把这个目录变成git可以管理的仓库)**</p>
+<h2 id="二，将项目的文件添加到仓库中"><a href="#二，将项目的文件添加到仓库中" class="headerlink" title="二，将项目的文件添加到仓库中"></a>二，将项目的文件添加到仓库中</h2><pre><code>执行**git add .**
+**(git add README.md//文件添加到仓库)**
+**(git add .//不但可以跟单一文件，还可以跟通配符，更可以根目录。一个点就把当前目录下所以未追逐的文件全部add了）**</code></pre><h2 id="三，将add文件commit到仓库"><a href="#三，将add文件commit到仓库" class="headerlink" title="三，将add文件commit到仓库"></a>三，将add文件commit到仓库</h2><pre><code>执行**git commit -m**“这里写注释语句”//把文件提交到仓库</code></pre><h2 id="四，将本地仓库关联到github上"><a href="#四，将本地仓库关联到github上" class="headerlink" title="四，将本地仓库关联到github上"></a>四，将本地仓库关联到github上</h2><pre><code>执行**git remote add origin** 这里输入刚才复制的仓库地址</code></pre><h2 id="五，上传前，要先pull一下，执行以下命令"><a href="#五，上传前，要先pull一下，执行以下命令" class="headerlink" title="五，上传前，要先pull一下，执行以下命令"></a>五，上传前，要先pull一下，执行以下命令</h2><pre><code>**git push origin master**</code></pre><h2 id="六，上传代码到github远程仓库"><a href="#六，上传代码到github远程仓库" class="headerlink" title="六，上传代码到github远程仓库"></a>六，上传代码到github远程仓库</h2><pre><code>执行**git push -u origin master**//把本地库的使用内容推送到远程库上</code></pre><h2 id="七，正常操作可能会出现的问题"><a href="#七，正常操作可能会出现的问题" class="headerlink" title="七，正常操作可能会出现的问题"></a>七，正常操作可能会出现的问题</h2><pre><code>中间可能会让你输入Username和Password
+如果出现下面问题按照提示输入邮箱跟用户名</code></pre>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/11/10/%E4%BD%BF%E7%94%A8Git%E5%B0%86%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E7%9A%84%E6%AD%A5%E9%AA%A4(%E6%97%A0%E5%9B%BE%E7%89%88)/" data-id="ck2swyoul0000n8uqedpyh23w" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-上传github步骤" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/11/10/%E4%B8%8A%E4%BC%A0github%E6%AD%A5%E9%AA%A4/" class="article-date">
@@ -212,6 +254,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2019/11/10/%E4%BD%BF%E7%94%A8Git%E5%B0%86%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github%E7%9A%84%E6%AD%A5%E9%AA%A4(%E6%97%A0%E5%9B%BE%E7%89%88)/">使用Git将本地文件上传到github的步骤(无图版)</a>
+          </li>
         
           <li>
             <a href="/2019/11/10/%E4%B8%8A%E4%BC%A0github%E6%AD%A5%E9%AA%A4/">上传github步骤</a>
